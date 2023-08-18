@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle" android:tint="@color/button_language">
+            <solid android:color="@color/button_language"/>
+            <corners android:radius="35dp"/>
+        </shape>
+    </item>
+
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle" android:tint="@color/button_language_pressed">
+            <solid android:color="@color/button_language_pressed"/>
+            <corners android:radius="35dp"/>
+        </shape>
+    </item>
+</selector>

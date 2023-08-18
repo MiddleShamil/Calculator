@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_size_vertical">24sp</dimen>
+    <dimen name="button_size_horizontal">16sp</dimen>
+    <dimen name="button_size_menu">13sp</dimen>
+    <dimen name="button_size_equality_quantities">24sp</dimen>
+    <dimen name="tv_size_menu_quantities">26sp</dimen>
+    <dimen name="tv_size_settings">30sp</dimen>
+</resources>

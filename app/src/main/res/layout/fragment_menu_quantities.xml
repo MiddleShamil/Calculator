@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu_quantities">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/background_menu">
+
+        <TextView
+            android:id="@+id/tvLength"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="15dp"
+            android:text="@string/menu_length"
+            android:textColor="@color/text_color_textview_menu"
+
+            android:textSize="@dimen/tv_size_menu_quantities">
+
+        </TextView>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@color/quantities_separator"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            >
+
+        </View>
+
+        <TextView
+            android:id="@+id/tvVolume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="15dp"
+            android:text="@string/menu_volume"
+            android:textColor="@color/text_color_textview_menu"
+            android:textSize="@dimen/tv_size_menu_quantities">
+
+        </TextView>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@color/quantities_separator"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            >
+
+        </View>
+
+
+        <TextView
+            android:id="@+id/tvArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="15dp"
+            android:text="@string/menu_area"
+            android:textColor="@color/text_color_textview_menu"
+            android:textSize="@dimen/tv_size_menu_quantities">
+
+        </TextView>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@color/quantities_separator"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            >
+
+        </View>
+
+
+        <TextView
+            android:id="@+id/tvMass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="15dp"
+            android:text="@string/menu_mass"
+            android:textColor="@color/text_color_textview_menu"
+            android:textSize="@dimen/tv_size_menu_quantities">
+
+        </TextView>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@color/quantities_separator"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            >
+
+        </View>
+
+        <TextView
+            android:id="@+id/tvNumberSystem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="15dp"
+            android:text="@string/menu_number_systems"
+            android:textColor="@color/text_color_textview_menu"
+
+            android:textSize="@dimen/tv_size_menu_quantities">
+
+        </TextView>
+
+    </LinearLayout>
+</FrameLayout>

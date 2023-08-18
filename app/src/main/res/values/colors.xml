@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="quantities_separator">#FFC9C8C8</color>
+
+    <!-- Buttons -->
+    <color name="white_buttons">#E2E2E2</color>
+    <color name="white_buttons_pressed">#EFEFEF</color>
+    <color name="gray_buttons">#C2C2C2</color>
+    <color name="gray_buttons_pressed">#E2E2E2</color>
+    <color name="dark_gray_buttons">#696969</color>
+    <color name="dark_gray_buttons_pressed">#7D7D7D</color>
+    <color name="red_equality_button">#CD0000</color>
+    <color name="red_equality_button_pressed">#DE0000</color>
+    <color name="menu_buttons">#AFAFAF</color>
+    <color name="menu_buttons_pressed">#C3C3C3</color>
+    <color name="buttons_left_corner">#747474</color>
+    <color name="button_delete_tint">#000000</color>
+    <color name="button_language">#43A1D0</color>
+    <color name="button_language_pressed">#49AFE3</color>
+
+    <!-- Backgrounds -->
+    <color name="background_activity">#FFFFFFFF</color>
+    <color name="background_menu">#D9D9D9</color>
+    <color name="background_quantities">#C2C2C2</color>
+    <color name="background_quantities_plaintext">#E2E2E2</color>
+    <color name="background_quantities_spinner">#878787</color>
+    <color name="background_quantities_spinner_text">#FFFFFF</color>
+
+    <!-- Text -->
+    <color name="text_color_hint">#989898</color>
+    <color name="text_color_textview_calc">#000000</color>
+    <color name="text_color_textview_menu">#000000</color>
+    <color name="text_color_textview_menu_title">#000000</color>
+    <color name="text_color_spinner">#000000</color>
+    <color name="text_color_edittext">#000000</color>
+    <color name="text_color_button_white">#000000</color>
+    <color name="text_color_button_gray">#000000</color>
+    <color name="text_color_button_gray_landscape">#000000</color>
+    <color name="text_color_button_darkgray">#CECECE</color>
+
+    <!-- Switch theme -->
+    <color name="light_switch">#43A1D0</color>
+    <color name="night_switch">#7C18E7</color>
+
+</resources>

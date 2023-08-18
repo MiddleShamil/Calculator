@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quantities">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/background_quantities">
+
+
+        <EditText
+            android:id="@+id/editTextFirstQuantity"
+            android:layout_width="218dp"
+            android:layout_height="64dp"
+            android:autofillHints="no"
+            android:background="@color/background_quantities_plaintext"
+            android:ems="10"
+            android:hint="@string/hint_quantities"
+            android:inputType="number|numberDecimal"
+            android:paddingStart="15dp"
+            android:textColor="@color/text_color_edittext"
+            android:textColorHint="@color/text_color_hint"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.259" />
+
+        <Spinner
+            android:id="@+id/firstSpinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/spinner_background"
+            android:entries="@array/length"
+            android:paddingStart="9dp"
+            android:popupBackground="@null"
+            android:theme="@style/SpinnerTheme"
+            app:layout_constraintEnd_toEndOf="@+id/editTextFirstQuantity"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/editTextFirstQuantity"
+            app:layout_constraintTop_toBottomOf="@+id/editTextFirstQuantity"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/bEqual_Quantities"
+            android:layout_width="96dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="88dp"
+            android:background="@drawable/rounded_button_equality"
+            android:text="="
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/button_size_equality_quantities"
+            app:layout_constraintEnd_toStartOf="@+id/editTextSecondQuantity"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toEndOf="@+id/editTextFirstQuantity"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/editTextSecondQuantity"
+            android:layout_width="218dp"
+            android:layout_height="64dp"
+            android:autofillHints="no"
+            android:background="@color/background_quantities_plaintext"
+            android:ems="10"
+            android:hint="@string/hint_quantities"
+            android:inputType="number|numberDecimal"
+            android:paddingStart="15dp"
+            android:textColor="@color/text_color_edittext"
+            android:textColorHint="@color/text_color_hint"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.259" />
+
+        <Spinner
+            android:id="@+id/secondSpinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/spinner_background"
+            android:entries="@array/length"
+            android:paddingStart="9dp"
+            android:popupBackground="@null"
+            android:theme="@style/SpinnerTheme"
+            app:layout_constraintEnd_toEndOf="@+id/editTextSecondQuantity"
+            app:layout_constraintStart_toStartOf="@+id/editTextSecondQuantity"
+            app:layout_constraintTop_toBottomOf="@+id/editTextSecondQuantity"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

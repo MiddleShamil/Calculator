@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name" translatable="false">Calculator</string>
+
+    <!-- Navigation Bar menu -->
+    <string name="menu_calculator">calculator</string>
+    <string name="menu_quantities">quantities</string>
+    <string name="menu_settings">settings</string>
+    <string name="menu_title">MENU</string>
+
+    <!-- Quantities -->
+    <string name="menu_length">Length</string>
+    <string name="menu_volume">Volume</string>
+    <string name="menu_mass">Mass</string>
+    <string name="menu_area">Area</string>
+    <string name="menu_number_systems">Number system</string>
+    <string name="hint_quantities">Numbers</string>
+    <string name="warning_empty">Please, fill in at least one field</string>
+
+    <!-- Calc error -->
+    <string name="preResult_erroe">Error</string>
+
+    <!-- Settings -->
+    <string name="language">Language</string>
+    <string name="language_ru" translatable="false">Русский</string>
+    <string name="language_en" translatable="false">English</string>
+
+
+    <!-- Quantities entries -->
+    <string-array name="length">
+        <item>Millimeter</item>
+        <item>Centimeter</item>
+        <item>Decimeter</item>
+        <item>Meter</item>
+        <item>Kilometer</item>
+        <item>Inch</item>
+        <item>Foot</item>
+        <item>Yard</item>
+        <item>Miles</item>
+    </string-array>
+
+    <string-array name="volume">
+        <item>Millilitre</item>
+        <item>Litre</item>
+        <item>Pint</item>
+        <item>Quart</item>
+        <item>Gallon</item>
+        <item>Barrel</item>
+    </string-array>
+
+    <string-array name="mass">
+        <item>Micrograms</item>
+        <item>Milligrams</item>
+        <item>Grams</item>
+        <item>Kilograms</item>
+        <item>Centner</item>
+        <item>Ton</item>
+        <item>Pound</item>
+        <item>Ounce</item>
+    </string-array>
+
+    <string-array name="area">
+        <item>sq.Millimeter</item>
+        <item>sq.Centimeter</item>
+        <item>sq.Decimeter</item>
+        <item>sq.Meter</item>
+        <item>sq.Kilometer</item>
+        <item>sq.Inch</item>
+        <item>sq.Foot</item>
+        <item>sq.Yard</item>
+        <item>sq.Miles</item>
+        <item>Ar</item>
+        <item>Hectare</item>
+        <item>Acre</item>
+    </string-array>
+
+    <string-array name="number_systems">
+        <item>Binary</item>
+        <item>Octal</item>
+        <item>Decimal</item>
+        <item>Hexadecimal</item>
+    </string-array>
+
+</resources>

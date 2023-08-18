@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_calculator">калькулятор</string>
+    <string name="menu_quantities">величины</string>
+    <string name="menu_settings">настройки</string>
+    <string name="menu_title">МЕНЮ</string>
+    <string name="hint_quantities">Числа</string>
+    <string name="warning_empty">Пожалуйста, заполните хотя бы одно поле</string>
+
+    <string-array name="length">
+        <item>Миллиметр</item>
+        <item>Сантиметр</item>
+        <item>Дециметр</item>
+        <item>Метр</item>
+        <item>Километр</item>
+        <item>Дюйм</item>
+        <item>Фут</item>
+        <item>Ярд</item>
+        <item>Миля</item>
+    </string-array>
+
+    <string-array name="volume">
+        <item>Миллилитр</item>
+        <item>Литр</item>
+        <item>Пинта</item>
+        <item>Кварта</item>
+        <item>Галлон</item>
+        <item>Баррель</item>
+    </string-array>
+
+    <string-array name="mass">
+        <item>Микрограмм</item>
+        <item>Миллиграмм</item>
+        <item>Грамм</item>
+        <item>Килограмм</item>
+        <item>Центнер</item>
+        <item>Тонна</item>
+        <item>Фунт</item>
+        <item>Унция</item>
+    </string-array>
+
+    <string-array name="area">
+        <item>кв.Миллиметр</item>
+        <item>кв.Сантиметр</item>
+        <item>кв.Дециметр</item>
+        <item>кв.Метр</item>
+        <item>кв.Километр</item>
+        <item>кв.Дюйм</item>
+        <item>кв.Фут</item>
+        <item>кв.Ярд</item>
+        <item>кв.Миля</item>
+        <item>Ар</item>
+        <item>Гектар</item>
+        <item>Акр</item>
+    </string-array>
+
+    <string-array name="number_systems">
+        <item>Двоичная</item>
+        <item>Восьмеричная</item>
+        <item>Десятичная</item>
+        <item>Шестнадцатиричная</item>
+    </string-array>
+
+    <string name="menu_length">Длина</string>
+    <string name="menu_volume">Объем</string>
+    <string name="menu_area">Площадь</string>
+    <string name="menu_mass">Масса</string>
+    <string name="menu_number_systems">Системы счисления</string>
+    <string name="preResult_erroe">Ошибка</string>
+    <string name="language">Язык</string>
+</resources>
